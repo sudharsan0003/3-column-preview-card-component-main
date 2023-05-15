@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body{
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+background-color: #333333;
+}
+
+*,
+*::after,
+*,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-black: #333333;
+  --clr-white: #fff;
+  --clr--bright-orange:hsl(31, 77%, 52%);
+  --clr--dark-cyan:hsl(184, 100%, 22%);
+  --clr-very-dark-cyan:hsl(179, 100%, 13%);
+  --ff-big-shoulder-display:'Big Shoulders Display', cursive;
+  --ff--lexend deca:'Lexend Deca', sans-serif;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+image{
+width: 100%;
+height: auto;
+}
+
+body{
+  background-color:#fff ;
+}
+
+.main-section{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: 8rem;
+}
+
+.card-1{
+  background-color: var(--clr--bright-orange);  
+  width: 250px;
+  height: 400px;
+  padding: 1rem;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.card-2{
+  background-color: var(--clr--dark-cyan);  
+  width: 250px;
+  height: 400px;
+  padding: 1rem;
+}
+
+.card-3{
+  background-color: var(--clr-very-dark-cyan);
+  width: 250px;
+  height: 400px;
+  padding: 1rem;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+
+
+.btn{
+  padding: 0.50rem 2rem;
+  margin-top: 7rem;
+  border: 2px solid white;
+  border-radius: 27px;
+  margin-left: 2.5rem;
+  
+}
+
+.title{
+  font-family: var(--ff-big-shoulder-display);
+  margin: 1rem;
+}
+
+.description{
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  font-family: var(--ff--lexend);
+}
+
